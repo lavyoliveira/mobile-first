@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="reset.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
       rel="stylesheet"
@@ -111,11 +112,24 @@
       <div class="card">
         <div class="card__descricao">
             <div class="descricao__titulo">
-                <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
-                <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
-                <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+              <div class="estrelas">
+                <input type="radio" id="cm_star-empty" name="fb" value="" checked/>
+                <label for="cm_star-1"><i class="fa"></i></label>
+                <input type="radio" id="cm_star-1" name="fb" value="1"/>
+                <label for="cm_star-2"><i class="fa"></i></label>
+                <input type="radio" id="cm_star-2" name="fb" value="2"/>
+                <label for="cm_star-3"><i class="fa"></i></label>
+                <input type="radio" id="cm_star-3" name="fb" value="3"/>
+                <label for="cm_star-4"><i class="fa"></i></label>
+                <input type="radio" id="cm_star-4" name="fb" value="4"/>
+                <label for="cm_star-5"><i class="fa"></i></label>
+                <input type="radio" id="cm_star-5" name="fb" value="5"/>
+              </div>
+                <h3 class="descricao__titulo">Autora do mês</h3>
+                <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
+                <p class="descricao__texto">Analista de sistemas e escritora. Juliana é especialista em front-end.</p>
             </div>
-            <img src="img/angular.svg" class="descricao__imagem" alt="Livro sobre Angular">
+            <img src="img/woman.jpg" class="descricao__imagem" alt="Livro sobre Angular">
         </div>
         <div class="card__botoes">
             <ul class="botoes">
