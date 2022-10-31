@@ -112,65 +112,61 @@
         placeholder="Qual será sua próxima leitura?"
       />
     </section>
+    
     <section class="carrossel">
       <h2 class="carrossel__titulo">Novos lançamentos</h2>
       <!-- Slider main container -->
-      <div class="swiper">
-        <div class="swiper-pagination"></div>
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide">
-            <img src="img/ApacheKafka.svg" alt="Livro sobre apache kafka" />
-          </div>
-          <div class="swiper-slide">
-            <img src="img/Javascript.svg" alt="Livro sobre Javascript" />
-          </div>
-          <div class="swiper-slide">
-            <img src="img/Nodejs.svg" alt="Livro sobre NodeJS" />
-          </div>
-          <div class="swiper-slide">
-            <img src="img/Liderança.svg" alt="Livro sobre Liderança" />
-          </div>
-          <div class="swiper-slide">
-            <img src="img/ReactNative.svg" alt="Livro sobre ReactNative" />
-          </div>
-        </div>
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
-      <div class="card">
-        <div class="card__descricao">
-            <div class="descricao__titulo">
-              <div class="estrelas">
-                <input type="radio" id="cm_star-empty" name="fb" value="" checked/>
-                <label for="cm_star-1"><i class="fa"></i></label>
-                <input type="radio" id="cm_star-1" name="fb" value="1"/>
-                <label for="cm_star-2"><i class="fa"></i></label>
-                <input type="radio" id="cm_star-2" name="fb" value="2"/>
-                <label for="cm_star-3"><i class="fa"></i></label>
-                <input type="radio" id="cm_star-3" name="fb" value="3"/>
-                <label for="cm_star-4"><i class="fa"></i></label>
-                <input type="radio" id="cm_star-4" name="fb" value="4"/>
-                <label for="cm_star-5"><i class="fa"></i></label>
-                <input type="radio" id="cm_star-5" name="fb" value="5"/>
+      <div class="carrossel__container">
+          <div class="swiper">
+              <!-- Additional required wrapper -->
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+
+              <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide"><img src="img/ApacheKafka.svg"
+                          alt="Livro sobre apache kafka e spring boot da alura books"></div>
+                  <div class="swiper-slide"><img src="img/Liderança.svg"
+                          alt="Livro sobre liderança em design da alura books"></div>
+                  <div class="swiper-slide"><img src="img/Javascript.svg"
+                          alt="Livro sobre javascript assertivo da alurabooks"></div>
+                  <div class="swiper-slide"><img src="img/guia-front.svg" alt="Livro Guia front end"></div>
+                  <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre portugol"></div>
+                  <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="livro sobre acessibilidade"></div>
               </div>
-                <h3 class="descricao__titulo">Autora do mês</h3>
-                <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
-                <p class="descricao__texto">Analista de sistemas e escritora. Juliana é especialista em front-end.</p>
-            </div>
-            <img src="img/woman.jpg" class="descricao__imagem" alt="Livro sobre Angular">
-        </div>
-        <div class="card__botoes">
-            <ul class="botoes">
-                <li class="botoes__item"><img src="img/favoritos.svg" alt="Favoritar livro"></li>
-                <li class="botoes__item"><img src="img/Compras.svg" alt="Comprar livro"></li>
-            </ul>
-            <a href="#" class="botoes__ancora">Saiba mais</a>
-        </div>
+
+              <!-- If we need navigation buttons -->
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+          </div>
+
+          <div class="card">
+              <!-- 1º linha -->
+              <div class="card__descricao">
+                  <!-- 1º coluna -->
+                  <div class="descricao">
+                      <h3 class="descricao__titulo">Autora do mês</h3>
+                      <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
+                      <p class="descricao__texto">Além de professora, Juliana escreve vários artigos por aí. Como é especialista em front-end, sua busca por novas tecnologias nunca parou. Juliana também é escritora de livros super popular na europa.</p>
+                  </div>
+                  <!-- 2º coluna -->
+                  <img src="img/woman.jpg" class="descricao__imagem">
+              </div>
+
+              <!-- 2º linha -->
+              <div class="card__botoes">
+                  <!-- 1º coluna -->
+                  <ul class="botoes">
+                      <li class="botoes__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+                      <li class="botoes__item"><img src="img/Compras.svg" alt="Adicionar no carrinho de compras"></li>
+                  </ul>
+                  <!-- 2º coluna -->
+                  <a href="#" class="botoes__ancora">Saiba mais</a>
+              </div>
+          </div>
       </div>
-    </section>
+  </section>
+
     <section class="topicos">
       <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
       <ul class="topicos__lista">
