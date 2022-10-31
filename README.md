@@ -10,7 +10,7 @@
 
 <img src="https://user-images.githubusercontent.com/94937715/199096567-1ef9417f-1f74-4e03-9e75-6e94ef35cf12.png" width="500">
 <br>Site no github pages:
-<a href="https://lavyoliveira.github.io/projeto-html-css-alura/">Alura+</a>
+<a href="https://lavyoliveira.github.io/mobile-first-alura/">Alura+</a>
 
 ## 💻 Pré-requisitos
 
